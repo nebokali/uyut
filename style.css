@@ -1,0 +1,421 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	font-family: 'Poiret One',Arial, cursive;
+    font-family: 'Arsenal', Arial, sans-serif;
+}
+
+
+.container {
+	background-color: #f8f8f8; 
+	width: 1170px;
+	margin: 0 auto;
+	min-height: 100%;
+}
+.wraper_1 {
+	width: 1070px;
+	margin: 0 auto;
+
+}
+.wraper {
+	width: 1170px;
+	margin: 0 auto;
+
+}
+
+.header {
+	background-color: #CCCCD9;
+	height: 600px;
+	position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 90px;
+  top: 40px;
+}
+
+
+.welcome {
+	border-radius: 15px;
+	background-color: #FDFDFF;
+	width: 270px;
+	height: 300px;
+	float: left;
+	margin-top: 250px;
+}
+
+.social {
+	position: absolute;
+  left: 740px;
+  top: 40px;
+}
+
+.social a {
+	margin-right: 15px;
+}
+
+.annonce {
+	color:#FFFAED;
+	width: 313px;
+	float: right;
+	margin-top:150px;
+	margin-right: 140px;
+	text-align: left;
+}
+
+.sidebar {
+	width: 270px;
+	float: left;
+	margin-right: 30px;
+}
+.title_menu {
+	font-family: 'Poiret One', sans-serif;
+	background-color: #58585B;
+	height: 66px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 74px; 
+	text-align: left;
+	padding-left: 43px;
+	text-transform: uppercase;
+}
+.menu {
+	background-color: #F7F7FF;
+	font-family: 'Poiret One', sans-serif;
+	list-style-type: none;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.menu li a{
+	height: 43px;
+	padding-left: 43px;
+	text-decoration: none;
+	color: #000000;
+	font-size: 14px;
+	font-weight: 900;
+	line-height: 36px;
+	text-align: left;
+	text-transform: uppercase;
+	display: block;
+}
+
+
+
+.content {
+	float: right;
+	width: 870px;
+	background-color: #f8f8f8;
+}
+
+.content p{
+	font: 900 italic 22px/26px 'Poiret One',sans-serif;
+	color: #707070;
+	padding-top: 30px;
+	margin: 0 0 25px 30px;
+}
+.product_new {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	text-transform: uppercase;
+}
+
+.product_top {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	text-transform: uppercase;
+}
+
+.product_sale {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	text-transform: uppercase;
+}
+
+.status {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 224px;
+}
+
+
+.brand {
+	display: flex;
+	background: #fff;
+	width: 1170px;
+	height: 160px;
+	clear: both;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}	
+
+.instagram {
+	height: 350px;
+	background-color: #eaeaea;
+}
+
+.insta_icon {
+	margin-left: 449px;
+	margin-top: 54px;
+	float: left;
+}
+
+.instagram p {
+	float: left;
+	font: 900 italic 22px/26px 'Poiret One',sans-serif;
+	text-align: center;
+	margin-bottom: 25px;
+	margin-left: 4px;
+	padding-top: 54px;
+}
+
+.instagram p span {
+	font-size: 18px;
+}
+
+.photo {
+	clear: both;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: flex-start;
+}
+.pfoto a {
+	height: 185px;
+	width: 185px;
+}
+
+.social_bottom a {
+	display: block;
+	float: left;
+}
+
+.social_bottom a img {
+ 	padding-top: 44px;
+ 	display: block;
+ 	margin: 0 auto;
+ }
+
+ .facebook {
+ 	background-color: #3b5997;
+ 	height: 150px;
+ 	width: 390px;
+ }
+
+ .twitter {
+ 	background-color: #3fccfd;
+ 	height: 150px;
+ 	width: 390px;
+ }
+
+ .pin {
+ 	background-color: #cb2027;
+ 	height: 150px;
+ 	width: 390px;
+ }
+
+
+
+.footer {	
+	clear: both;
+	position: relative;
+	width: 100%;
+	height: 48px;
+	background-color: #303030;
+
+}
+
+.footer p {
+	float: left;
+	font: 400 12px/22px 'Poiret One',sans-serif;
+	color: #dad9d9;
+	margin-left: 165px;
+	padding-top: 20px;
+}
+
+.social_footer {
+	float: right;
+	margin-right: 165px;
+	padding-top: 20px;
+}
+
+.social_footer a {
+	margin-right: 15px;
+	float: left;
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url('img/footer.png');
+}
+.social_footer a:nth-child(1) {
+	width: 8px;
+	background-position: -5px;
+}
+
+.social_footer a:nth-child(2) {
+	width: 15px;
+	background-position: -28px;
+}
+
+.social_footer a:nth-child(3) {
+	width: 14px;
+	background-position: -58px;
+}
+
+.social_footer a:nth-child(4) {
+	background-position: -84px;
+}
+
+.social_footer a:nth-child(5) {
+	width: 9px;
+	background-position: -113px;
+}
+
+.social_footer a:nth-child(6) {
+	background-position: -138px;
+}
+
+.social_footer a:nth-child(7) {
+	background-position: -170px;
+}
+
+
+.product_new div {
+	background: #fff;
+	width: 270px;
+	height: 320px;
+	margin: 0 0 30px;
+	position: relative;
+}
+
+.product_top div {
+	background: #fff;
+	width: 270px;
+	height: 320px;
+	margin: 0 0 30px;
+	position: relative;
+}
+
+.product_sale div {
+	background: #fff;
+	width: 270px;
+	height: 320px;
+	margin: 0 0 30px;
+	position: relative;
+}
+
+.content div a {
+	display: block;
+	background: #eaeaea;
+	width: 250px;
+	height: 230px;
+	margin: 10px auto 23px
+}
+
+.content div span:nth-child(2) {
+	color: #333333;
+	padding: 0px;
+	margin: 0 0 0 26px; 
+	width: 50%;
+	font: 900 italic 14px/14px 'Poiret One',sans-serif;
+	float: left;
+}
+
+.content div span:nth-child(3) {
+	color: #333333;
+	padding: 0px;
+  font: 900 italic 18px/22px 'Poiret One',sans-serif;
+  float: right;
+  margin: 0 15px 0 0;
+  text-align: right;
+}
+
+.content div span:nth-child(3) span {
+	font: 900 italic 14px/18px 'Poiret One',sans-serif;
+	color: #e24602;
+	text-decoration: line-through;
+	display: block;
+}
+
+.welcome p:first-child, .welcome p:last-child {
+	color:#333333;
+	text-align: left;
+	padding-left: 22px;
+	padding-right: 30px;
+}
+
+.welcome p:first-child {
+	font: 700 25px/25px 'Arsenal',sans-serif;
+	padding-top: 52px;
+	margin-bottom: 24px;
+	text-shadow: 2px 3px 4px #ccc;
+}
+
+.welcome p:last-child {
+    font: 700 italic 14px/14px 'Arsenal',sans-serif;
+}
+
+.annonce p:first-child {
+	text-transform: uppercase;
+	font: 800 20px/20px 'Arsenal',sans-serif;
+	padding-bottom: 5px;	
+}
+
+.annonce p:nth-child(2) {
+	font: 400 14px/14px 'Arsenal',sans-serif;
+}
+
+.annonce a {
+	background-color: #FFFAED;
+	display: block;
+	height: 49px;
+	width: 124px;
+	margin-top: 20px;
+	text-decoration: none;
+	text-align: center;
+	color:#000000;
+	font-size: 14px;
+	font-weight: 800;
+	line-height: 49px;
+}
+
+.menu li a:hover {
+	background-color: #58585B;
+	color: #ffffff;
+}
+.social img:hover {
+  opacity: 0.6;
+}
+.buy {
+	border-radius: 15px;
+}
+.buy:hover {
+  opacity: 0.6;
+}
+.product_new a:hover {
+  opacity: 0.6;
+}
+.product_top a:hover {
+  opacity: 0.6;
+}
+
+.photo img:hover {
+  opacity: 0.6;
+}
+.social_bottom a:hover {
+  opacity: 0.6;
+}
+.social_footer a:hover {
+  opacity: 0.6;
+}
